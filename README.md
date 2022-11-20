@@ -28,8 +28,7 @@
   - [example](./src/ch3/outputting-variable-example): sử dụng curly brace trong JSX syntax để output variable
 
 - **3.2.4 Working with properties in JSX**
-  - cách sử dụng property được pass vào một element
-  - cách pass tất cả property của parent vào một element
+  - [example](./src/ch3/using-props-example): cách sử dụng property được pass vào một element
 
 - **3.2.5 Creating React component methods**
   - có thể thêm method vào component và gọi nó từ các method khác (kể cả `render`)
