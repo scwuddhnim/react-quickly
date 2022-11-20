@@ -31,7 +31,7 @@
   - [example](./src/ch3/using-props-example): cách sử dụng property được pass vào một element
 
 - **3.2.5 Creating React component methods**
-  - có thể thêm method vào component và gọi nó từ các method khác (kể cả `render`)
+  - [example](./src/ch3/using-method-example): có thể thêm method vào component và gọi nó từ các method khác (kể cả `render`)
 
 - **3.2.6 if/else in JSX**
   - sử dụng if/else trong JSX bằng 3 cách: variable, expression và ternary operator
@@ -41,3 +41,21 @@
 
 - **3.3 Setting up a JSX transpiler with Babel**
   - [example](./src/ch3/transpile-with-babel-example): sử dụng babel CLI để transpile JSX thành ES6/ES2015
+
+- **3.4 React and JSX gotchas**
+  - React yêu cầu closing slash trong khi HTML thì không
+
+- **3.4.1 Special characters**
+  - cách sử dụng các special character trong JSX
+
+- **3.4.2 data- attributes**
+  - sử dụng `data-*` attribute nếu muốn React render ra các non-standard HTML attribute
+
+- **3.4.3 style attribute**
+  - cách để style một element trong JSX
+
+- **3.4.4 class and for**
+  - `class` và `for` là các reserved word của JavaScript, vì vậy chúng được thay thế bằng `ClassName` và `htmlFor`
+
+- **3.4.5 Boolean attribute values**
+  - cách pass giá trị boolean vào các attribute khi tạo element
